@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.university{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    color:royalblue;
+}
+.university:hover{
+    color: orangered;
+}
+.blue-highlight{
+    color:rgb(50, 151, 218);
+}
+.half-width{
+    font-size: 15px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    text-align: justify;
+}
+.half-width img{
+    margin: 20px;
+    width: 70%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightblue, royalblue);
+    background-color: royalblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
+.link-button:hover{
+    background-image: linear-gradient(45deg, orange, orangered);
+}
+
+.dream{
+    color: rgb(236, 63, 170);
+    font-size: 40px;
+}
+.resume-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightpink, deeppink);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
+.resume-button:hover{
+    background-image: linear-gradient(45deg, orange, orangered);
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experienc-text{
+    margin-left: 5%;
+    font-size: 50px;
+    text-shadow: 10px 10px 40px royalblue;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    height: 60%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice:1 ;
+}
+#junior{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightpink, deeppink);
+    border-image-slice:1 ;
+}
+footer{
+    text-align: center;
+}
